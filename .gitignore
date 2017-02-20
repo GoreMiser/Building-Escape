@@ -3,5 +3,6 @@ Intermediate/
 Binaries/
 DerivedDataCache/
 Saved/
-Content/StarterContent/
+Content/StarterContent/Textures
+Content/StarterContent/HDRI
 *.VC.db
