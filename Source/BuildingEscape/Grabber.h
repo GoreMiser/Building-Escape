@@ -23,8 +23,18 @@ public:
 
 private:
 	UPROPERTY(EditAnywhere)
-	float reach = 100.f;
+	float reach = 200.f;
 
-		
+	UPhysicsHandleComponent *physicsHandle = nullptr;
+	UInputComponent *inputGuy = nullptr;
+
+	//grab stuff
+	void grab();
+
+	//released
+	void release();
+
+	//return hit for first physics body in reach
+	const FHitResult getFirstPhysicsBody();
 	
 };

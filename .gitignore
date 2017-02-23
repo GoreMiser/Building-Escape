@@ -6,3 +6,5 @@ Saved/
 Content/StarterContent/Textures
 Content/StarterContent/HDRI
 *.VC.db
+*.VC.opendb
+*.sln
